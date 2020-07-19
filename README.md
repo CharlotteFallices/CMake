@@ -5,7 +5,7 @@
 CMake是一个跨平台的开源编译器.
 完整文档请访[CMake Home Page](https://cmake.org),[CMake Documentation Page](https://cmake.org/documentation)和[CMake Community Wiki](https://gitlab.kitware.com/cmake/community/wikis/home).
 
-CMake由[Kitware](http://www.kitware.com/cmake)护和支持,并与社区成员合作开发.
+CMake由[Kitware](http://www.kitware.com/cmake)维护和支持,并与社区成员合作开发.
 
 ## License
 
@@ -36,8 +36,8 @@ CMake根据OSI批准的BSD 3条款许可发布.
 您可以使用--help选项查看受支持的选项.
 您可以使用`--prefix = <install_prefix>`将其安装至自定义的CMake的安装目录,完成之后请运行`make`和`make install`.
 
-例如,如果您只想从源代码编译和安装CMake，
-您可以直接在源代码树中构建：
+例如,如果您只想从源代码编译和安装CMake,
+您可以直接在源代码树中构建:
 
 ```
   $ ./bootstrap && make && sudo make install
